@@ -83,5 +83,36 @@
     color: #fff;
 }
 
+.hero-section{
+    background-image: url(bc2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px 0;
+    width: 50%;
+}
 
+.hero-content h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.hero-content p{
+    font-size: 14px;
+    margin: 10px 0;
+}
